@@ -3,7 +3,7 @@ using UnityEngine;
 public class GemControl : MonoBehaviour
 {
     [SerializeField] int rotateSpeed = 2;
-    [SerializeField] AudioSource gemCollect;
+    //[SerializeField] AudioSource gemCollect;
 
     void Update()
     {
@@ -12,7 +12,7 @@ public class GemControl : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        gemCollect.Play();
-        Destroy(gameObject);
+        //gemCollect.Play();
+        //Destroy(gameObject);
     }
 }
